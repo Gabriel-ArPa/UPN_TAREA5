@@ -13,15 +13,19 @@ namespace Intento1
 {
     public partial class Form3 : Form
     {
-        public Form3()
-        {
-            _stageA = _stageB = 0;
-            InitializeComponent();
-        }
-
         #region Atributo
         private int _stageA;
         private int _stageB;
+        private Form _parentForm;
+        #endregion
+
+        #region Constructor
+        public Form3(Form parentForm)
+        {
+            _stageA = _stageB = 0;
+            _parentForm = parentForm;
+            InitializeComponent();
+        }
         #endregion
 
         #region Aumentar Genericos
@@ -266,5 +270,10 @@ namespace Intento1
             AumentarPunto(Set.Set5, Equipo.EquipoB);
         }
         #endregion
+
+        private void Form3_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            _parentForm.Show();
+        }
     }
 }

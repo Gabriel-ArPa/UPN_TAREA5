@@ -36,8 +36,12 @@
             this.label17 = new System.Windows.Forms.Label();
             this.btnSet1A = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtGanaSet1 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.btnSet1B = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.txtGanaSet2 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.btnSet2B = new System.Windows.Forms.Button();
             this.btnSet2A = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -46,6 +50,8 @@
             this.txtSet2B = new System.Windows.Forms.TextBox();
             this.txtSet2A = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.txtGanaSet3 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.btnSet3B = new System.Windows.Forms.Button();
             this.btnSet3A = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -54,6 +60,8 @@
             this.txtSet3B = new System.Windows.Forms.TextBox();
             this.txtSet3A = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.txtGanaSet4 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.btnSet4B = new System.Windows.Forms.Button();
             this.btnSet4A = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -62,6 +70,8 @@
             this.txtSet4B = new System.Windows.Forms.TextBox();
             this.txtSet4A = new System.Windows.Forms.TextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.txtGanaSet5 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
             this.btnSet5B = new System.Windows.Forms.Button();
             this.btnSet5A = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
@@ -69,16 +79,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.txtSet5B = new System.Windows.Forms.TextBox();
             this.txtSet5A = new System.Windows.Forms.TextBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.txtGanaSet1 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.txtGanaSet5 = new System.Windows.Forms.TextBox();
-            this.txtGanaSet4 = new System.Windows.Forms.TextBox();
-            this.txtGanaSet3 = new System.Windows.Forms.TextBox();
-            this.txtGanaSet2 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -172,6 +172,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "SET 1";
             // 
+            // txtGanaSet1
+            // 
+            this.txtGanaSet1.Enabled = false;
+            this.txtGanaSet1.Location = new System.Drawing.Point(693, 60);
+            this.txtGanaSet1.Name = "txtGanaSet1";
+            this.txtGanaSet1.Size = new System.Drawing.Size(137, 22);
+            this.txtGanaSet1.TabIndex = 35;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(688, 21);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(102, 27);
+            this.label14.TabIndex = 34;
+            this.label14.Text = "Gana Set";
+            // 
             // btnSet1B
             // 
             this.btnSet1B.Location = new System.Drawing.Point(564, 56);
@@ -199,6 +217,24 @@
             this.groupBox2.TabIndex = 34;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "SET 2";
+            // 
+            // txtGanaSet2
+            // 
+            this.txtGanaSet2.Enabled = false;
+            this.txtGanaSet2.Location = new System.Drawing.Point(693, 60);
+            this.txtGanaSet2.Name = "txtGanaSet2";
+            this.txtGanaSet2.Size = new System.Drawing.Size(137, 22);
+            this.txtGanaSet2.TabIndex = 39;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(688, 21);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(102, 27);
+            this.label18.TabIndex = 38;
+            this.label18.Text = "Gana Set";
             // 
             // btnSet2B
             // 
@@ -288,6 +324,24 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "SET 3";
             // 
+            // txtGanaSet3
+            // 
+            this.txtGanaSet3.Enabled = false;
+            this.txtGanaSet3.Location = new System.Drawing.Point(693, 60);
+            this.txtGanaSet3.Name = "txtGanaSet3";
+            this.txtGanaSet3.Size = new System.Drawing.Size(137, 22);
+            this.txtGanaSet3.TabIndex = 38;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(688, 21);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(102, 27);
+            this.label16.TabIndex = 37;
+            this.label16.Text = "Gana Set";
+            // 
             // btnSet3B
             // 
             this.btnSet3B.Enabled = false;
@@ -375,6 +429,24 @@
             this.groupBox4.TabIndex = 36;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "SET 4";
+            // 
+            // txtGanaSet4
+            // 
+            this.txtGanaSet4.Enabled = false;
+            this.txtGanaSet4.Location = new System.Drawing.Point(693, 60);
+            this.txtGanaSet4.Name = "txtGanaSet4";
+            this.txtGanaSet4.Size = new System.Drawing.Size(137, 22);
+            this.txtGanaSet4.TabIndex = 37;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(688, 21);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(102, 27);
+            this.label15.TabIndex = 36;
+            this.label15.Text = "Gana Set";
             // 
             // btnSet4B
             // 
@@ -464,6 +536,24 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "SET 5";
             // 
+            // txtGanaSet5
+            // 
+            this.txtGanaSet5.Enabled = false;
+            this.txtGanaSet5.Location = new System.Drawing.Point(693, 60);
+            this.txtGanaSet5.Name = "txtGanaSet5";
+            this.txtGanaSet5.Size = new System.Drawing.Size(137, 22);
+            this.txtGanaSet5.TabIndex = 36;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.Location = new System.Drawing.Point(688, 21);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(102, 27);
+            this.label19.TabIndex = 37;
+            this.label19.Text = "Gana Set";
+            // 
             // btnSet5B
             // 
             this.btnSet5B.Enabled = false;
@@ -534,96 +624,6 @@
             this.txtSet5A.TabIndex = 6;
             this.txtSet5A.Text = "0";
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(688, 21);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(102, 27);
-            this.label14.TabIndex = 34;
-            this.label14.Text = "Gana Set";
-            // 
-            // txtGanaSet1
-            // 
-            this.txtGanaSet1.Enabled = false;
-            this.txtGanaSet1.Location = new System.Drawing.Point(693, 60);
-            this.txtGanaSet1.Name = "txtGanaSet1";
-            this.txtGanaSet1.Size = new System.Drawing.Size(137, 22);
-            this.txtGanaSet1.TabIndex = 35;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(688, 21);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(102, 27);
-            this.label15.TabIndex = 36;
-            this.label15.Text = "Gana Set";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(688, 21);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(102, 27);
-            this.label16.TabIndex = 37;
-            this.label16.Text = "Gana Set";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(688, 21);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(102, 27);
-            this.label18.TabIndex = 38;
-            this.label18.Text = "Gana Set";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(688, 21);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(102, 27);
-            this.label19.TabIndex = 37;
-            this.label19.Text = "Gana Set";
-            // 
-            // txtGanaSet5
-            // 
-            this.txtGanaSet5.Enabled = false;
-            this.txtGanaSet5.Location = new System.Drawing.Point(693, 60);
-            this.txtGanaSet5.Name = "txtGanaSet5";
-            this.txtGanaSet5.Size = new System.Drawing.Size(137, 22);
-            this.txtGanaSet5.TabIndex = 36;
-            // 
-            // txtGanaSet4
-            // 
-            this.txtGanaSet4.Enabled = false;
-            this.txtGanaSet4.Location = new System.Drawing.Point(693, 60);
-            this.txtGanaSet4.Name = "txtGanaSet4";
-            this.txtGanaSet4.Size = new System.Drawing.Size(137, 22);
-            this.txtGanaSet4.TabIndex = 37;
-            // 
-            // txtGanaSet3
-            // 
-            this.txtGanaSet3.Enabled = false;
-            this.txtGanaSet3.Location = new System.Drawing.Point(693, 60);
-            this.txtGanaSet3.Name = "txtGanaSet3";
-            this.txtGanaSet3.Size = new System.Drawing.Size(137, 22);
-            this.txtGanaSet3.TabIndex = 38;
-            // 
-            // txtGanaSet2
-            // 
-            this.txtGanaSet2.Enabled = false;
-            this.txtGanaSet2.Location = new System.Drawing.Point(693, 60);
-            this.txtGanaSet2.Name = "txtGanaSet2";
-            this.txtGanaSet2.Size = new System.Drawing.Size(137, 22);
-            this.txtGanaSet2.TabIndex = 39;
-            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -637,6 +637,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form3";
             this.Text = "Gana Set";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form3_FormClosed);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

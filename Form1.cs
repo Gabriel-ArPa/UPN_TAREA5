@@ -429,7 +429,7 @@ namespace Intento1
         }
         private void btnVoley_Click(object sender, EventArgs e)
         {
-            Form3 f3 = new Form3();
+            Form3 f3 = new Form3(this);
             f3.Show();
             this.Hide();
         }
