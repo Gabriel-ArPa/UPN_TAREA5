@@ -15,12 +15,14 @@ namespace Intento1
     {
         #region Atributo
         private bool _enDescanso;
+        private Form _parentForm;
         #endregion
 
         #region Constructor
-        public Form2()
+        public Form2(Form parentForm)
         {
             _enDescanso = false;
+            _parentForm = parentForm;
             InitializeComponent();
         }
         #endregion
@@ -113,5 +115,10 @@ namespace Intento1
             return hayGanador;
         }
         #endregion
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            _parentForm.Show();
+        }
     }
 }

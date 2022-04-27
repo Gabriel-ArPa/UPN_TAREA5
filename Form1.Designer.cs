@@ -177,6 +177,7 @@
             // 
             // cbxDeporte
             // 
+            this.cbxDeporte.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxDeporte.FormattingEnabled = true;
             this.cbxDeporte.Items.AddRange(new object[] {
             "FUTBOL",
@@ -188,6 +189,7 @@
             // 
             // cbxEquipo
             // 
+            this.cbxEquipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxEquipo.FormattingEnabled = true;
             this.cbxEquipo.Items.AddRange(new object[] {
             "EQUIPOA",
@@ -218,6 +220,7 @@
             // 
             // cbxSexo
             // 
+            this.cbxSexo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxSexo.FormattingEnabled = true;
             this.cbxSexo.Items.AddRange(new object[] {
             "HOMBRE",
@@ -238,6 +241,7 @@
             // 
             // cbxEstado
             // 
+            this.cbxEstado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxEstado.FormattingEnabled = true;
             this.cbxEstado.Items.AddRange(new object[] {
             "TITULAR",
@@ -274,7 +278,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "|";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

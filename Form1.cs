@@ -97,7 +97,7 @@ namespace Intento1
 
                             arr[indice] = de;
                             indice++;
-                            BorrarTexto();
+                            LimpiarFormulario();
                             cantHombres++;
                             cantFutbol++;
                             cantTitFutbol++;
@@ -120,7 +120,7 @@ namespace Intento1
 
                             arr[indice] = de;
                             indice++;
-                            BorrarTexto();
+                            LimpiarFormulario();
                             cantHombres++;
                             cantFutbol++;
                             cantTitFutbol++;
@@ -148,7 +148,7 @@ namespace Intento1
 
                             arr[indice] = de;
                             indice++;
-                            BorrarTexto();
+                            LimpiarFormulario();
                             cantHombres++;
                             cantVoley++;
                             cantTitVoley++;
@@ -160,7 +160,7 @@ namespace Intento1
 
                             arr[indice] = de;
                             indice++;
-                            BorrarTexto();
+                            LimpiarFormulario();
                             cantHombres++;
                             cantVoley++;
                             cantSupVoley++;
@@ -180,7 +180,7 @@ namespace Intento1
 
                             arr[indice] = de;
                             indice++;
-                            BorrarTexto();
+                            LimpiarFormulario();
                             cantHombres++;
                             cantVoley++;
                             cantTitVoley++;
@@ -193,7 +193,7 @@ namespace Intento1
 
                             arr[indice] = de;
                             indice++;
-                            BorrarTexto();
+                            LimpiarFormulario();
                             cantHombres++;
                             cantVoley++;
                             cantSupVoley++;
@@ -225,7 +225,7 @@ namespace Intento1
 
                             arr[indice] = de;
                             indice++;
-                            BorrarTexto();
+                            LimpiarFormulario();
                             cantMujeres++;
                             cantFutbol++;
                             cantTitFutbol++;
@@ -248,7 +248,7 @@ namespace Intento1
 
                             arr[indice] = de;
                             indice++;
-                            BorrarTexto();
+                            LimpiarFormulario();
                             cantMujeres++;
                             cantFutbol++;
                             cantTitFutbol++;
@@ -275,7 +275,7 @@ namespace Intento1
 
                             arr[indice] = de;
                             indice++;
-                            BorrarTexto();
+                            LimpiarFormulario();
                             cantMujeres++;
                             cantVoley++;
                             cantTitVoley++;
@@ -287,7 +287,7 @@ namespace Intento1
 
                             arr[indice] = de;
                             indice++;
-                            BorrarTexto();
+                            LimpiarFormulario();
                             cantMujeres++;
                             cantVoley++;
                             cantSupVoley++;
@@ -307,7 +307,7 @@ namespace Intento1
 
                             arr[indice] = de;
                             indice++;
-                            BorrarTexto();
+                            LimpiarFormulario();
                             cantMujeres++;
                             cantVoley++;
                             cantTitVoley++;
@@ -319,7 +319,7 @@ namespace Intento1
 
                             arr[indice] = de;
                             indice++;
-                            BorrarTexto();
+                            LimpiarFormulario();
                             cantMujeres++;
                             cantVoley++;
                             cantSupVoley++;
@@ -392,16 +392,16 @@ namespace Intento1
             AnchoColumnas();
         }
 
-        void BorrarTexto()
+        void LimpiarFormulario()
         {
             txtnombre.Text = "";
             txtapellido.Text = "";
             txtpeso.Text = "";
             txttalla.Text = "";
-            cbxDeporte.Text = "";
-            cbxEquipo.Text = "";
-            cbxSexo.Text = "";
-            cbxEstado.Text = "";
+            cbxDeporte.SelectedIndex = -1;
+            cbxEquipo.SelectedIndex = -1;
+            cbxSexo.SelectedIndex = -1;
+            cbxEstado.SelectedIndex = -1;
             txtnombre.Focus();
         }
 
@@ -423,7 +423,7 @@ namespace Intento1
         }
         private void btnFutbol_Click(object sender, EventArgs e)
         {
-            Form2 f2 = new Form2();
+            Form2 f2 = new Form2(this);
             f2.Show();
             this.Hide();
         }
